@@ -216,11 +216,11 @@ main {
 }
 
 .splide__arrow:disabled {
-  background-color: gray;
+  background-color: var(--date-color);
 }
 
 .splide__arrow:disabled:hover {
-  background-color: gray;
+  background-color: var(--date-color);
 }
 
 .splide__arrow:hover {

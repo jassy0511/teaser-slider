@@ -156,9 +156,9 @@ main{
     opacity: 1;
     background-color: var(--button-blue);
     &:disabled{
-        background-color: gray;
+        background-color: var(--date-color);
         &:hover{
-            background-color: gray;
+            background-color: var(--date-color);
         }
     }
     &:hover{
