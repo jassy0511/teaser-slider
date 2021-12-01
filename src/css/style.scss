@@ -132,10 +132,11 @@ main{
     }
 }
 .splide__arrows{
-    margin-bottom: 40px;
     display: flex;
     justify-content: center;
     gap: 40px;
+    max-width: 1316px;
+    margin: 0 auto 40px;
     @media (min-width: $display-medium){
         justify-content: flex-end;
     }

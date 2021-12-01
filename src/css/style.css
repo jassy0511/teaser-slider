@@ -173,7 +173,6 @@ main {
 }
 
 .splide__arrows {
-  margin-bottom: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -181,6 +180,8 @@ main {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 40px;
+  max-width: 1316px;
+  margin: 0 auto 40px;
 }
 
 @media (min-width: 768px) {
